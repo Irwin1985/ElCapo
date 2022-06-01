@@ -43,6 +43,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ast\Array.cs" />
+    <Compile Include="ast\Assign.cs" />
+    <Compile Include="ast\AssignCollection.cs" />
+    <Compile Include="ast\Binary.cs" />
+    <Compile Include="ast\BinaryInc.cs" />
+    <Compile Include="ast\Call.cs" />
+    <Compile Include="ast\Dictionary.cs" />
+    <Compile Include="ast\Enum.cs" />
+    <Compile Include="ast\Expr.cs" />
+    <Compile Include="ast\Get.cs" />
+    <Compile Include="ast\Grouping.cs" />
+    <Compile Include="ast\Index.cs" />
+    <Compile Include="ast\Literal.cs" />
+    <Compile Include="ast\Logical.cs" />
+    <Compile Include="ast\Self.cs" />
+    <Compile Include="ast\Set.cs" />
+    <Compile Include="ast\StringFormat.cs" />
+    <Compile Include="ast\Super.cs" />
+    <Compile Include="ast\Unary.cs" />
+    <Compile Include="ast\Variable.cs" />
+    <Compile Include="ast\Visitor.cs" />
     <Compile Include="Error.cs" />
     <Compile Include="lexer\Lexer.cs" />
     <Compile Include="Capo.cs" />
